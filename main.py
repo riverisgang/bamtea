@@ -83,7 +83,7 @@ if st.button("결제 진행하기 ✅"):
         st.write(f"**맛:** {', '.join(choices)}")
         st.write(f"**결제방법:** {payment}")
         st.write(f"**결제금액:** {total:,}원")
-        st.balloons()
+        st.snow()
         st.info("직원 안내에 따라 주문을 완료해주세요. 즐거운 시간 되세요! 🍨")
 
 st.write("\n---\n도움이 필요하시면 직원에게 문의해주세요 — 친절하게 도와드릴게요! 😊")
